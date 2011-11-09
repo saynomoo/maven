@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="saynomoo.mig4android" module="mig4android" revision="0.9.2" status="release" publication="20110823235713"/>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description=""/>
+		
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="system" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="javadoc" visibility="public" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="mig4android" type="jar" ext="jar" conf="compile,runtime,provided,system,optional,sources,javadoc"/>
+		<artifact name="mig4android" type="src" ext="jar" conf="compile,runtime,provided,system,optional,sources,javadoc" e:classifier="sources"/>
+	</publications>
+</ivy-module>
